@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    font-family: Roboto , sans-serif;
+}
+
+header {
+    background-color: #1F2937;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+a:hover{
+    color: #d3d5d8;
+}
+
+header img {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+header h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+
+header p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.costumer-opinion {
+    font-size: 32px;
+    font-style: italic;
+    background-color: #E5E7EB;
+}
+.costumer-username {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.call-to-action{
+    margin: 58px;
+    padding: 29px 58px;
+    border-radius: 8px;
+    background-color: #3882F6;
+}
+
+footer {
+    padding: 29px;
+    color: #E5E7EB;
+    font-size: 12px;
+    text-align: center;
+    background-color: #1F2937;
+}
