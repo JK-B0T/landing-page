@@ -3,6 +3,36 @@
     font-family: Roboto , sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+}
+nav img {
+    margin-right: auto;
+}
+
+nav + section {
+    display: flex;
+    padding: 29px 58px;
+}
+nav + section > div {
+    display: flex;
+    flex-direction: column;
+}
+
+section > h2 + div {
+    display: flex;
+}
+
+nav + section > img {
+    flex: 0 0 150px;
+    height: 100px;
+}
+
 header {
     background-color: #1F2937;
 }
