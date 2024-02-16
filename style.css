@@ -30,6 +30,10 @@ body,
     flex-direction: column;
 }
 
+body {
+    justify-content: space-between;
+}
+
 /*---HEADER SECTION---*/
 
 nav img {
@@ -43,6 +47,11 @@ nav + section > img { /*Header main image*/
 
 header {
     background-color: #1F2937;
+}
+
+.header-container {
+    padding-top: 58px; 
+    padding-bottom: 58px; 
 }
 
 header img {
@@ -65,9 +74,21 @@ header p{
 h2 {
     font-size: 32px;
     font-weight: bolder;
+    text-align: center;
+}
+
+.first-section{
+    padding-top: 32px;
+    padding-bottom: 70px;
+}
+.images-array {
+    padding-top: 24px;
+    text-align: center;
 }
 
 .costumer-opinion {
+    padding-top: 58px;
+    padding-bottom: 58px;
     font-size: 32px;
     font-style: italic;
     background-color: #E5E7EB;
