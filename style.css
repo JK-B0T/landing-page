@@ -19,7 +19,9 @@ section {
 
 body,
 nav,
+.navigation-options,
 nav + section, /*Main text and image container on the header*/
+.header-container,
 .header-text,
 .images-array,
 .costumer-opinion,
@@ -33,19 +35,21 @@ body,
     flex-direction: column;
 }
 
-body {
-    justify-content: space-between;
-}
-
 /*---HEADER SECTION---*/
-
-nav img {
-    margin-right: auto;
-    font-weight: bold;
+nav {
+    padding-top: 16px;
+    align-items: center;
 }
-
-nav + section > img { /*Header main image*/
-    flex: none;
+nav img {
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 24px;
+    flex: auto;
+}
+.navigation-options {
+    justify-content: space-around;
+    margin-left: auto;
+    flex: auto;
 }
 
 header {
@@ -55,22 +59,40 @@ header {
 .header-container {
     padding-top: 58px; 
     padding-bottom: 58px; 
+    justify-content: space-between;
 }
 
-header img {
-    font-size: 24px;
+.header-container img {
     color: #F9FAF8;
+    background-color: grey;
+    text-align: center;
+    align-self: center;
+    flex: auto;
 }
 header h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 }
-
 header p{
     font-size: 18px;
     color: #E5E7EB;
 }
+.header-text{
+    flex: 1 1 auto;
+    justify-content: space-between;
+}
+header button {
+    width: 100px;
+    height: 30px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
 
 /*---CONTENT SECTION---*/
 
@@ -87,6 +109,13 @@ h2 {
 .images-array {
     padding-top: 24px;
     text-align: center;
+}
+figure img {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+figcaption {
+    color: grey;
 }
 
 .costumer-opinion {
