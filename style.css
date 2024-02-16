@@ -21,11 +21,14 @@ body,
 nav,
 nav + section, /*Main text and image container on the header*/
 .header-text,
-.images-array
+.images-array,
+.costumer-opinion,
+.call-to-action
  { /*Containers with flex display*/
     display: flex;
 }
 body,
+.costumer-opinion,
 .header-text { /*Containers with column flex direction*/
     flex-direction: column;
 }
@@ -97,6 +100,8 @@ h2 {
     font-size: 18px;
     font-style: normal;
     font-weight: bold;
+    align-self: flex-end;
+    
 }
 
 .call-to-action{
@@ -104,6 +109,18 @@ h2 {
     padding: 29px 58px;
     border-radius: 8px;
     background-color: #3882F6;
+    color: #F9FAF8;
+}
+.call-to-action button {
+    margin-left: auto;
+    flex: 0 0 100px;
+    height: 30px;
+    align-self: center;
+    border: 3px solid white;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 /*---FOOTER SECTION---*/
