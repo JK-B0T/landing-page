@@ -34,11 +34,11 @@ body,
 
 nav img {
     margin-right: auto;
+    font-weight: bold;
 }
 
 nav + section > img { /*Header main image*/
-    flex: 0 0 150px;
-    height: 100px;
+    flex: none;
 }
 
 header {
